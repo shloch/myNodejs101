@@ -1,0 +1,30 @@
+{
+  "name": "mynodejs101",
+  "version": "1.0.0",
+  "description": "learning NodeJS",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shloch/myNodejs101.git"
+  },
+  "keywords": [
+    "nodejs101"
+  ],
+  "author": "@shloch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shloch/myNodejs101/issues"
+  },
+  "homepage": "https://github.com/shloch/myNodejs101#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.21"
+  }
+}
