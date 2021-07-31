@@ -19,7 +19,9 @@ const blog_details = (request, response) => {
     .then(result => {
         response.render('blogs/details', {blog: result, title: 'Blog Details'})
     })
-    .catch(errors => console.log(errors))
+    .catch(errors => {
+        response.status(404).render('404', {title: 'Blog Not Found'})
+    })
 }
 
 
