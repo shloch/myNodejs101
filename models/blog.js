@@ -1,6 +1,8 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema;
 
+// logging to https://cloud.mongodb.com/ using gmail account
+
 const blogSchema = new Schema({
     title: {
         type: String,
